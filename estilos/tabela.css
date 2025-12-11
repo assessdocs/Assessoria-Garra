@@ -1,0 +1,51 @@
+/* CSS Document */
+
+@charset "utf-8";
+
+table {
+    border-collapse: collapse;
+    border-radius: 12px;
+}
+
+th {
+    border: 1px solid var(--cor-1);
+
+    background-color: var(--cor-1);
+    color: white;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    font-size: 12px;
+    text-align: center;
+
+    height: 33px;
+    width: 107px;
+    padding: 4px;
+}
+
+td {
+    border: 1px solid var(--cor-1);
+
+    background-color: white;
+    color: var(--m3-on-surface);
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 12px;
+    text-align: center;
+    font-style: italic;
+
+    height: 33px;
+    width: 107px;
+    padding: 4px;
+}
+
+.tabela-esquerda {
+    text-align: left;
+    width: 160px;
+}
+
+.tabela-subtitulos {
+    font-weight: 600;
+    text-align: left;
+    font-style: normal;
+    width: 160px;
+}
