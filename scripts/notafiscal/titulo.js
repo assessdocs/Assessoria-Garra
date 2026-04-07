@@ -8,7 +8,7 @@ document.getElementById('exportar').addEventListener('click', () => {
         var cnpj = document.getElementById('cnpj').textContent;
 
         // Atualiza o título do documento
-        document.title = 'Ameripaper Assessoria - Nota Fiscal Eletrônica (NFe) [' + cnpj + ']';
+        document.title = 'Garra Assessoria - Nota Fiscal Eletrônica (NFe) [' + cnpj + ']';
     } else {
         console.log('Título: Documento não identificado.');
     }

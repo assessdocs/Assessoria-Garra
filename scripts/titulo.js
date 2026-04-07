@@ -10,7 +10,7 @@ document.getElementById('exportar').addEventListener('click', () => {
         document.title = 'Garra Assessoria [Orçamento de R$ ' + total + '] - ' + cnpj;
     } else if (document.getElementById('eve')) {
         console.log('Título: EVE');
-        document.title = 'Garra Assessoria - Estudo de Viabilidade Econômica [' + cnpj + ']';
+        document.title = 'Garra Assessoria - Estudo Técnico de Viabilidade Econômica [' + cnpj + ']';
     } else if (document.getElementById('bv')) {
         console.log('Título: BV');
         document.title = 'Garra Assessoria - Business Valuation [' + cnpj + ']';

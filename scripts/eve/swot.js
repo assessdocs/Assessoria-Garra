@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
         if (this.checked) {
             tituloDocumento.innerHTML = 'ANÁLISE<br>DE SWOT';
         } else {
-            tituloDocumento.innerHTML = 'ESTUDO DE<br>VIABILIDADE<br>ECONÔMICA';
+            tituloDocumento.innerHTML = 'ESTUDO<br>TÉCNICO DE<br>VIABILIDADE<br>ECONÔMICA';
         }
     });
 });
