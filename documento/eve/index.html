@@ -63,13 +63,12 @@
             <label for="i-email">E-mail do Cliente</label>
             <input type="email" placeholder="cliente@exemplo.com" id="i-email">
         </div>
-        <div id="exportar-swot">
-            <span>Exportar como SWOT</span>
-            <label class="material-switch">
-                <input id="swot-switch" type="checkbox" class="switch-principal">
-                <span class="material-slider round"></span>
-            </label>
-        </div>
+        <select id="select-exportar">
+            <option value="[TIPO]" disabled="" selected="">Tipo de Exportação</option>
+            <option value="EVE">Exportar como EVE</option>
+            <option value="ETVE">Exportar como ETVE</option>
+            <option value="SWOT">Exportar como SWOT</option>
+        </select>
         <button id="exportar">
             <span class="material-symbols-rounded">download</span>
             <span>EXPORTAR</span>
